@@ -23,7 +23,7 @@ footer{
 }
 
 #logoFooter{
-    background-image:url(imagens/4cars-removebg-preview.png);
+    background-image:url(img/4cars-removebg-preview.png);
     background-size: cover;
     width:220px;
     height:200px;
@@ -82,7 +82,7 @@ footer{
 
 
 #social1{
-    background-image: url(imagens/twitter.png);
+    background-image: url(img/twitter.png);
     background-size:cover;
     height:40px;
     width:40px;
@@ -94,7 +94,7 @@ footer{
 }
 
 #social2{
-    background-image: url(imagens/facebook.png);
+    background-image: url(img/facebook.png);
     background-size: cover;
     width:50px;
     height:50px;
@@ -106,7 +106,7 @@ footer{
 }
 
 #social3{
-    background-image: url(imagens/instagram.png);
+    background-image: url(img/instagram.png);
     background-size: cover;
     width:50px;
     height:50px;
@@ -173,6 +173,7 @@ body{
   margin: 0;
   padding: 0;
 }
+
 /* cabeçalho */
 header{
   background-color: cornsilk;
