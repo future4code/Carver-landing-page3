@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    width:100%;
+    height:100%;
+}
+
+
+h1{
+
+    font-weight: bold;
+    color: #140f07;
+    margin: 64px !important;
+}
+
+p{
+    font-size: 15px;
+   margin-left: 64px;
+   margin-top:0;
+   padding-bottom: 15px;
+   
+    
+}
+html body .titulo::after{
+    content: "__";
+}
+
+
+.titulo::after{
+    display: block;
+    color: #000 ;
+}
+
+
+
+
+.sub-quem-somos{
+    font-size: 24px;
+    font-weight: bold;
+    color: #FF5C5C;
+    margin: 64px !important;
+}
+
+#valores{
+    display: grid;
+    grid-template-columns: repeat(2, 450px);
+    align-items: center;
+    row-gap: 30px;
+    margin-left: 64px;
+    margin-top: 70px ;
+    font-size: large;
+}
+b,p{
+    font-size: large;
+}
+
+.img-grid{
+    margin-left:65px;
+}
+
+#titulo-quem-somos{
+    text-align: center;
+    font-size: 40px;
+}
+#history{
+    display: grid;
+    grid-template-columns: repeat(2,400px);
+    grid-template-rows: repeat(10, 400px);
+    row-gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+#history .sub-text{
+    font-size: 20px;
+}
+
+.text{
+
+    border-right: 3px dotted;
+}
+
+
+.sub-text{
+    margin-left: 200px;
+    font-size: 15px;
+    word-break: normal; 
+    width: 50vh;
+  
+    
+}
