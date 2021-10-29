@@ -8,7 +8,37 @@ body{
     height:100vh;
 
 }
+/* cabeçalho */
+header{
+  background-color: cornsilk;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 60px -16px rgb(60, 61, 61);
+}
+#logo{
+  padding-left: 15%;
+  width: 35%;
+}
+.menu{
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+.icones{
+  background-color:#FF5C5C ;
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+  font-size: 25px;
+  border: 1px solid #FF5C5C;
+  border-radius: 10px;
+}
+.icones:hover{
+  background-color: blanchedalmond;
+}
 
+/* rodape */
 footer{
   position:absolute;
   width:100vw;
@@ -139,32 +169,3 @@ footer{
     padding-top: 30px;
 }
 
-/* cabeçalho */
-header{
-  background-color: cornsilk;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  box-shadow: 60px -16px rgb(60, 61, 61);
-}
-#logo{
-  padding-left: 5%;
-  width: 35%;
-}
-.menu{
-  width: 50%;
-  display: flex;
-  justify-content: space-around;
-}
-.icones{
-  background-color:#FF5C5C ;
-  padding: 10px;
-  color: black;
-  text-decoration: none;
-  font-size: 25px;
-  border: 1px solid #FF5C5C;
-  border-radius: 10px;
-}
-.icones:hover{
-  background-color: blanchedalmond;
-}
