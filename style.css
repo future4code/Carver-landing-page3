@@ -19,7 +19,7 @@ footer{
     display:flex;
     flex-direction: row;
     align-items:flex-start;
-    height:60%;
+    height:80%;
     width:100vw;
 }
 
@@ -139,10 +139,6 @@ footer{
     padding-top: 30px;
 }
 
-body{
-  margin: 0;
-  padding: 0;
-}
 /* cabeçalho */
 header{
   background-color: cornsilk;
