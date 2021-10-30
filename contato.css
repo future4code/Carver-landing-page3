@@ -1,0 +1,165 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+main{
+    height:170vh;
+}
+
+#duvidas{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top:50px;
+
+}
+
+#duvidasELogo{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+}
+
+#iconeDuvida{
+    width:5%;
+    height:5%;
+    padding-left: 10px;
+}
+
+#duvidas h2{
+   padding-top:10px;
+   font-size: 32px;
+}
+
+#duvidas h3{
+    color:red;
+    font-size:28px
+}
+
+#duvidasFrequentes{
+    display:flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items:flex-start;
+    height:60vh;
+    width:50vw;
+    padding-top:20px;
+}
+
+.divPerguntas{
+    width:100%;
+    height:25%;
+    border:none;
+    border-bottom:1px solid rgb(197, 197, 197);
+    cursor:pointer;
+    text-align:left;
+    font-size:24px;
+
+}
+
+.divPerguntas p{
+    padding-top:25px;
+    padding-left:25px;
+}
+
+.divPerguntas:hover{
+    background-color: rgb(235, 235, 235);
+}
+
+#mainContato{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top:50px;
+}
+
+#mainContato h2{
+    padding-bottom:20px;
+}
+
+.labelsContato{
+    padding-bottom: 20px;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#mainContato h2{
+    font-size: 32px;
+    padding-bottom: 20px;
+}
+
+#separacao3{
+    background-size: cover;
+    width:80vw;
+    height:0;
+    border:0;
+    border-bottom: 2px solid black;
+    padding-top:50px;
+}
+
+#formulario{
+    display:flex;
+    flex-direction:column;
+    justify-content: flex-end;
+    font-size:20px;
+    color:white;
+}
+
+#formulario2{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items:center;
+}
+
+#formulario2 h2{
+    padding-top:20px;
+    padding-bottom:20px;
+    font-size: 32px;
+}
+
+#centralizandoForm1{
+    display:flex;
+    flex-direction: row;
+}
+
+#entrarEmContato{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 30vw;
+    height:300px;
+    background-color: rgb(235, 50, 50);
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+    font-style: italic; 
+    margin-left: 5vw;
+    text-align: center;
+    font-size: 20px;
+    color:white;   
+}
+
+#fundoVermelhoForm{
+    display:flex;
+    flex-direction: column;
+    width: 20vw;
+    height:300px;
+    background-color: rgb(235, 50, 50);
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+}
+
+#txtbox{
+    height:8em;
+}
+
+label{
+    padding-right:10px;
+}
