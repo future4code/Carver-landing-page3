@@ -111,8 +111,8 @@ margin: 15px;
   background-color: #FF5C5C;
   width: 35%;
   margin: 7.5%;
-
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-left: 3px dotted;
 }
 #carro-sobre:hover{
   box-shadow: #FF5C5C 0px 5px 15px;
@@ -124,6 +124,7 @@ margin: 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  border-left: 3px solid #FF5C5C;
 }
 #paragrafo{
   text-align: justify;
@@ -146,9 +147,11 @@ margin: 15px;
   
 }
 
-img{
+#img-mecanico{
   background-color: #FF5C5C;
   margin-bottom: 50px;
+  border-right: 3px dotted;
+
 }
 
 #container-vantagens{
