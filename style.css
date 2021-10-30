@@ -201,8 +201,12 @@ footer{
   width: 35%;
   margin: 7.5%;
   border: 1px black solid;
-  box-shadow: 0.25em 0.25em black;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+#carro-sobre:hover{
+  box-shadow: #FF5C5C 0px 5px 15px;
+}
+
 #container-texto{
   padding: 10%;
   width: 20%;
