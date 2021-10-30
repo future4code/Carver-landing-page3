@@ -17,6 +17,7 @@ header{
   box-shadow: 60px -16px rgb(60, 61, 61);
 }
 #logo{
+  background-color: #ffff;
   padding-left: 15%;
   width: 35%;
 }
@@ -243,4 +244,9 @@ img{
   display: grid;
   grid-template-columns: repeat(2, 400px);
   justify-content: space-evenly;
+}
+
+#vantagens-titulo, #vantagens-lista{
+  font-size: 24px;
+  font-weight: 400;
 }
