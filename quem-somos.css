@@ -93,13 +93,40 @@ b,p{
 }
 
 .icones-novo{
-    display: grid;
+    height: 50%;
+   display: flex;
+}
+
+.icones-novo a{
+  margin: 15px;
 }
 
 #footer-quem-somos{
     width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 180px;
+    background-color: #FF5C5C;
+    flex-direction: column;
+    align-content: stretch;
+    
+}
+
+.informacoes{
+    display: grid;
+    margin-right: 70px;
+    grid-template-columns: repeat(3, 400px);
+
+  
+}
+
+.info-links{
     display: grid;
 }
+
+
 
 
 
