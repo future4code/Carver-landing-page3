@@ -13,7 +13,7 @@ body{
 h1{
 
     font-weight: bold;
-    color: #140f07;
+    color: #000;
     margin: 64px !important;
 }
 
@@ -90,6 +90,16 @@ b,p{
     font-size: 15px;
     word-break: normal; 
     width: 50vh;
-  
-    
 }
+
+.icones-novo{
+    display: grid;
+}
+
+#footer-quem-somos{
+    width: 100%;
+    display: grid;
+}
+
+
+
