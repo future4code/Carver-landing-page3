@@ -246,7 +246,11 @@ img{
   justify-content: space-evenly;
 }
 
-#vantagens-titulo, #vantagens-lista{
+#vantagens-titulo{
   font-size: 24px;
+  font-weight: 400;
+}
+#vatagens-lista li{
+  font-size: 18px;
   font-weight: 400;
 }
