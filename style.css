@@ -1,6 +1,7 @@
 *{
   margin:0;
   padding:0;
+  font-family: Roboto, sans-serif;
 }
 
 body{
@@ -10,7 +11,6 @@ body{
 }
 /* cabeçalho */
 header{
-  background-color: cornsilk;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -20,22 +20,26 @@ header{
   padding-left: 15%;
   width: 35%;
 }
+
+#color{
+  color: #FF5C5C;
+}
+
 .menu{
   width: 50%;
   display: flex;
   justify-content: space-around;
+  font-size: 20px;
 }
 .icones{
-  background-color:#FF5C5C ;
   padding: 10px;
-  color: black;
+  color: #22252c;
   text-decoration: none;
-  font-size: 25px;
-  border: 1px solid #FF5C5C;
-  border-radius: 10px;
 }
 .icones:hover{
-  background-color: blanchedalmond;
+  font-size: 25px;
+  background-color:#F5F6F8 ;
+  border-bottom: 3px solid #FF5C5C;
 }
 
 /* rodape */
