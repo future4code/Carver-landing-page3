@@ -219,6 +219,7 @@ footer{
   border: 1px black solid;
   text-align: justify;
   padding: 0.5%;
+  font-size: 15px;
 }
 
 #paragrafo:hover{
@@ -226,7 +227,14 @@ footer{
 }
 
 #link-sobre{
+  font-size: 15px;
   padding-top: 5%;
   text-decoration: none;
   color: #FF5C5C;
+}
+
+#link-sobre:hover{
+  font-size: 20px;
+  border-bottom: 3px solid #000;
+  
 }
