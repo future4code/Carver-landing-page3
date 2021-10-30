@@ -169,3 +169,51 @@ footer{
     padding-top: 30px;
 }
 
+/* main */
+#apresentacao{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+#h1{
+  text-shadow: 1px 1px 2px black;
+  margin-inline: 10em;
+  text-align: center;
+  margin-top: -15px;
+  position: absolute;
+}
+#carro-apresentacao{
+  width: 60%;
+  opacity: 20%;
+}
+
+#sobre-empresa{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+#carro-sobre{
+  background-color: #FF5C5C;
+  width: 35%;
+  margin: 7.5%;
+  border: 1px black solid;
+  box-shadow: 0.25em 0.25em black;
+}
+#container-texto{
+  padding: 10%;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#paragrafo{
+  box-shadow: 0.25em 0.25em black;
+  border: 1px black solid;
+  text-align: justify;
+  padding: 0.5%;
+}
+#link-sobre{
+  padding-top: 5%;
+  text-decoration: none;
+  color: #FF5C5C;
+}
