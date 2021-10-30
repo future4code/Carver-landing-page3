@@ -32,7 +32,7 @@ html body .titulo::after{
 
 .titulo::after{
     display: block;
-    color: #000 ;
+    color: #FF5C5C ;
 }
 
 
@@ -81,7 +81,7 @@ b,p{
 
 .text{
 
-    border-right: 3px dotted;
+    border-right: 3px dotted #FF5C5C;
 }
 
 
@@ -124,6 +124,6 @@ b,p{
 
 .info-links{
     display: grid;
-    cursor: pointer;git add . 
+    cursor: pointer;
     
 }
