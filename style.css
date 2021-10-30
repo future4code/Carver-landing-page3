@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   text-decoration: none;
-  font-family: Roboto, sans-serif;
+  font-family: Robotogit commit -m " ", sans-serif;
 }
 
 body{
@@ -44,7 +44,16 @@ header{
 }
 
 /* rodape */
-#footer-quem-somos{
+.icones-novo{
+  height: 50%;
+ display: flex;
+}
+
+.icones-novo a{
+margin: 15px;
+}
+
+#footer-home{
   width: 100%;
   display: flex;
   text-align: center;
@@ -68,6 +77,7 @@ header{
 .info-links{
   display: grid;
 }
+
 
 /* main */
 #apresentacao{
