@@ -76,6 +76,8 @@ margin: 15px;
 
 .info-links{
   display: grid;
+  cursor: pointer;
+
 }
 
 .text-info{
