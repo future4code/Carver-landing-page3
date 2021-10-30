@@ -44,134 +44,29 @@ header{
 }
 
 /* rodape */
-footer{
-  position:absolute;
-  width:100vw;
-  height:20%;
-}
-
-#principalFooter{
-    display:flex;
-    flex-direction: row;
-    align-items:flex-start;
-    height:80%;
-    width:100vw;
-}
-
-#logoFooter{
-    background-image:url(img/4cars.png);
-    background-size: cover;
-    width:220px;
-    height:200px;
-}
-
-#linkSelection{
-  display:flex;
-  flex-direction: row;
-  justify-content:space-around;
-  align-items: flex-start;
-  height: 100%;
-  width:100vw;
-  font-style: italic;
-}
-
-.linkFooter{
-  display:flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding-top:50px
-}
-
-.linkFooter p{
-  font-size: 22px;
-  font-family:'Times New Roman', Times, serif;
-  padding-bottom: 50px;
-}
-
-.linkFooter p:hover{
-  color:red;
-  text-decoration: underline;
-}
-
-#redesSociais{
-  display:flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-#redesSociais p{
+#footer-quem-somos{
+  width: 100%;
+  display: flex;
   text-align: center;
-  font-size: 25px;
-}
-
-#iconesSociais{
-  display:flex;
-  flex-direction: row;
+  justify-content: space-evenly;
   align-items: center;
-  justify-content: space-between; 
-  padding-top: 10px;
-  width: 10%;
-  height:10%;
+  height: 190px;
+  background-color: #FF5C5C;
+  flex-direction: column;
+  align-content: stretch;
+  
 }
 
+.informacoes{
+  display: grid;
+  margin-right: 70px;
+  grid-template-columns: repeat(3, 400px);
 
-#social1{
-    background-image: url(img/twitter.png);
-    background-size:cover;
-    height:40px;
-    width:40px;
-    border-radius: 20px;
+
 }
 
-#social1:hover{
-  opacity:0.7;
-}
-
-#social2{
-    background-image: url(img/facebook.png);
-    background-size: cover;
-    width:50px;
-    height:50px;
-    border-radius: 50px; 
-}
-
-#social2:hover{
-  opacity:0.7;
-}
-
-#social3{
-    background-image: url(img/instagram.png);
-    background-size: cover;
-    width:50px;
-    height:50px;
-    border-radius: 30px;
-}
-
-#social3:hover{
-  opacity:0.7;
-}
-
-#separacao{
-  background-size: cover;
-  width:100vw;
-  height:0;
-  border:0;
-  border-bottom: 2px solid black;
-}
-
-#separacao2{
-  background-size: cover;
-  width:50vw;
-  height:0;
-  border:0;
-  border-bottom: 2px solid black;
-  padding-top:20px
-}
-
-#desenvolvidoPor{
-    text-align: center;
-    padding-top: 30px;
+.info-links{
+  display: grid;
 }
 
 /* main */
