@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.icone {
+    width: 60px;
+    height: 60px;
+    align-items: center;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: space-around;
+    background-color:whitesmoke;
+}
+
+.layouy-contato {
+    border: 1px solid rosybrown;
+    align-items: center;
+}
+
+
