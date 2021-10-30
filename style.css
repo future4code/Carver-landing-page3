@@ -217,12 +217,8 @@ footer{
 #paragrafo{
   text-align: justify;
   padding: 0.5%;
-  font-size: 15px;
+  font-size: 24px;
   font-weight: 400;
-}
-
-#paragrafo:hover{
-  box-shadow: #FF5C5C 0px 5px 15px;
 }
 
 #link-sobre{
