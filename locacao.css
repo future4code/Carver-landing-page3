@@ -2,29 +2,109 @@
 * {
     margin: 0;
     padding: 0;
-}
-
-main {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.carros {
-    
-}
-=======
-*{
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
     font-family: Robotot, sans-serif;
 }
 
-body{
-    width:100%;
-    height:100%;
+body {
+    width: 100%;
+    height: 100%;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+section {
+    margin: 50px;
 }
 
 
+#titulo {
+    font-size: 50px;
+}
+
+#sub-titulo {
+    font-size: 30px;
+}
+
+.modelos-div-geral {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20%;
+    margin-top: 50px;
+    margin-right: 20%;
+
+}
+
+#modelo-titulo {
+    align-items: center;
+}
+
+#icone-modelos {
+   width: 200px;
+   height: 200px;
+  
+
+}
+.passo-a-passo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+#passo-a-passo {
+    color: #FF5C5C;
+}
+
+span {
+    color: #FF5C5C;
+}
+
+.icone-passo {
+    width: 60px;
+    height: 60px;
+    margin-right: 55px;
+}
+
+.passos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    margin-left: 20%;
+    margin-top: 50px;
+    
+}
+
+#alugar {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 42%;
+    align-items: center;
+}
+
+button {
+    border-radius: 5px 5px 5px;
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    color: #FF5C5C;
+    border: 3px solid #FF5C5C;
+}
+
+button:hover {
+    background-color: #FF5C5C;
+    color: white;
+    border: 3px solid #FF5C5C;
+}
+
+button:active {
+    background-color: #FF5C5C;
+    color: violet;
+    border: 1px solid violet;
+}
