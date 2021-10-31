@@ -16,7 +16,6 @@ main{
     justify-content: center;
     align-items: center;
     padding-top:50px;
-
 }
 
 #duvidasELogo{
@@ -24,6 +23,7 @@ main{
     flex-direction: row;
     align-items: center;
     justify-content:center;
+    
 }
 
 #iconeDuvida{
@@ -49,7 +49,7 @@ main{
     align-items:flex-start;
     height:100vh;
     width:50vw;
-    padding-top:20px;
+    padding-top:100px;
 }
 
 #duvidasFrequentes p{
@@ -80,7 +80,7 @@ main{
     display:flex;
     flex-direction: column;
     align-items: center;
-    padding-top:50px;
+    padding-top:100px;
 }
 
 #mainContato h2{
@@ -188,6 +188,7 @@ label{
     background-color: #FF5C5C;
     flex-direction: column;
     align-content: stretch;
+    margin-top:100px
 }
 
 #contatoCarro{
@@ -287,6 +288,10 @@ label{
 
     #contatoCarro{
         padding-top:0px;
+    }
+
+    #footer-contato{
+        margin-top:150px
     }
 
 }
