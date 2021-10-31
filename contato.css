@@ -172,6 +172,12 @@ label{
     padding-right:10px;
 }
 
+#outrosMeios{
+    padding-left:135px;
+    padding-bottom:10px; 
+    font-size:25px;
+}
+
 #footer-contato{
     width: 100%;
     display: flex;
@@ -210,7 +216,7 @@ label{
     main{
         display: flex;
         flex-direction: column;
-        min-height:400vh;
+        min-height:370vh;
     }
 
     #Duvidas{
@@ -248,6 +254,21 @@ label{
     #iconeDuvida{
         width:20px;
         height:20px;
+    }
+
+    #mainContato h2{
+        font-size:15px;
+        padding-left:20px;
+    }
+
+    #outrosMeios{
+        padding-left:40px;
+        font-size:20px
+    }
+
+    #formulario2 h2{
+        padding-left: 10px;
+        font-size: 23px;
     }
 
 }
