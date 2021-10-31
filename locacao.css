@@ -47,9 +47,14 @@ section {
 #icone-modelos {
    width: 200px;
    height: 200px;
-  
-
+   
 }
+#icone-modelos:hover {
+    cursor: pointer;
+    width: 250px;
+    height: 250px;    
+}
+
 .passo-a-passo {
     display: flex;
     flex-direction: column;
@@ -59,6 +64,12 @@ section {
 
 #passo-a-passo {
     color: #FF5C5C;
+}
+
+#passo-a-passo:hover {
+    font-size: 20px;
+    cursor: pointer;
+
 }
 
 span {
@@ -101,6 +112,7 @@ button:hover {
     background-color: #FF5C5C;
     color: white;
     border: 3px solid #FF5C5C;
+    cursor: pointer;
 }
 
 button:active {
