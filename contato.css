@@ -1,29 +1,4 @@
 
-* {
-    margin: 0;
-    padding: 0;
-}
-
-.icone {
-    width: 60px;
-    height: 60px;
-    align-items: center;
-}
-main {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    justify-content: space-around;
-    background-color:whitesmoke;
-}
-
-.layouy-contato {
-    border: 1px solid rosybrown;
-    align-items: center;
-}
-
-
-=======
 *{
     margin:0;
     padding:0;
@@ -31,7 +6,8 @@ main {
 }
 
 main{
-    height:240vh;
+    height:210vh;
+    min-height: 220vh;
 }
 
 #duvidas{
@@ -187,6 +163,7 @@ main{
     font-style: italic;
 }
 
+
 #txtbox{
     height:8em;
 }
@@ -194,7 +171,6 @@ main{
 label{
     padding-right:10px;
 }
-
 
 #footer-contato{
     width: 100%;
@@ -207,6 +183,8 @@ label{
     flex-direction: column;
     align-content: stretch;
 }
+
+
 
 @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
 
@@ -246,8 +224,9 @@ label{
     }
     
     #fundoVermelhoForm{
-        width:90%;
+        width:80%;
         padding-left:50px;
+        margin-left:15px;
     }
 
     #fundoVermelhoForm h3{
@@ -275,11 +254,11 @@ label{
 
 @media screen and (min-device-width : 1000px) and (max-device-width : 1280px) {
     main{
-        height:190vh;
+        height:170vh;
     }
 
     input{
-        width:10em;
+        width:8em;
     }
     
 }

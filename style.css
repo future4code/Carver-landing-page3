@@ -171,12 +171,13 @@ margin: 15px;
 #vatagens-lista li{
   font-size: 18px;
   font-weight: 400;
-=======
+}
 
 #container-vantagens{
   display: flex;
   justify-content: center;
 }
+
 #vantagens{
   border: 1px black solid;
   border-radius: 1em;
@@ -228,4 +229,25 @@ margin: 15px;
 }
 .planos-titulo{
   padding-bottom: 10% ;
+}
+
+@media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .text-info{
+    padding:0;
+    margin:0;
+    font-size: 15px;
+    padding-bottom:10px;
+  }
+
+  .informacoes-home{
+    margin-right:0;
+    grid-template-columns: repeat(3, 100px);
+  }
+
+  .menu a{
+    width:100vw;
+    padding:5px;
+  }
+
+ 
 }
