@@ -195,13 +195,7 @@ margin: 15px;
   height: 100%;
   list-style: inside;
 }
-#mecanico{
-  background-color: #FF5C5C;;
-  margin-inline: 5%;
-  border: 1px black solid;
-  width: 40%;
-  box-shadow: 0.25em 0.25em black;
-}
+
 
 #container-link-planos{
   display: flex;
